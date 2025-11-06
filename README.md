@@ -30,7 +30,6 @@ Classifying retail product data, especially in the food sector, is challenging d
 - Provides a Streamlit web demo for real-time inspection of predictions and model decisions.  
 
 The approach leverages human-in-the-loop rules, GPU-based inference with open-source LLMs, and a multi-level taxonomy for scalable, production-grade classification.
-
 ---
 
 ## Data Sources
@@ -113,6 +112,9 @@ Key observations from shopper & demographic data:
 - Most purchased categories: Beverages > Pantry Staples > Snacks.
 - Frequent itemsets (Apriori algorithm): `"Canned & Packaged Foods" + "Pantry Staples"`, `"Beverages" + "Pantry Staples"`
 - Age 30–45 are the most frequent shoppers of Foods & Beverages.
+
+## Project Demo
+![DEMO](https://github.com/AjaydevNarathmeethal/Hybrid-AI-for-Retail-Product-Categorization/blob/main/Recalling%20Food%20Classification%20Levels.gif)  
 
 
 ## Key Lessons & Future Directions
